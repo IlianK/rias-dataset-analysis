@@ -1,0 +1,27 @@
+# Dataset shape
+batch_size: 4
+target_size: [384, 256]
+input_shape: [256, 384, 4]
+
+# Compiler parameters
+optimizer: 'adam'
+loss: 'mse'
+metrics:
+  - 'accuracy'
+
+# Data ratios
+shuffle: True
+test_size: 0.2
+val_size: 0.2
+
+# Callback functions
+use_early_stopping: True
+use_checkpoint: True
+use_tensorboard_logs: True
+
+# Failed training
+models_folder: ''
+models_subfolder: ''
+model_name: 'test'
+failed_at_epoch: 0
+missing_datasets: ['all_train_data_real3500']

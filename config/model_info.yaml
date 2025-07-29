@@ -1,0 +1,45 @@
+on_combined/on_all_dims:
+- r_cae_on_base_comb_fm8x12_dim6144_real3500
+- r_cae_on_base_comb_fm8x12_dim3072_real3500
+- r_cae_on_base_comb_fm4x6_dim1536_real3500
+- r_cae_on_base_comb_fm4x6_dim768_real3500
+- r_cae_on_base_comb_fm2x3_dim384_real3500
+- r_cae_on_base_comb_fm2x3_dim192_real3500
+
+#on_combined/on_classic:
+#- classic_on_base_comb_dense3072_real3500
+
+on_combined/on_real_descent:
+- r_cae_on_base_comb_fm8x12_dim3072_real2500
+- r_cae_on_base_comb_fm8x12_dim3072_real1500
+- r_cae_on_base_comb_fm8x12_dim3072_real500
+- r_cae_on_base_comb_fm8x12_dim6144_real2500
+- r_cae_on_base_comb_fm8x12_dim6144_real1500
+- r_cae_on_base_comb_fm8x12_dim6144_real500
+
+on_combined/on_up_down:
+- r_cae_on_base_comb_fm4x6_dim1536_real3500_up
+- r_cae_on_base_comb_fm8x12_dim1536_real3500_down
+
+on_seq/on_cae:
+- cae_on_base_seq_fm8x12_dim3072_real3500
+- cae_on_base_seq_fm8x12_dim6144_real3500
+
+on_seq/on_r_cae:
+- r_cae_on_base_seq_fm8x12_dim3072_real3500
+- r_cae_on_base_seq_fm8x12_dim6144_real3500
+
+on_seq/on_seq_order:
+- r_cae_on_base_seq_fm8x12_dim3072_real3500_si_dr_se_re
+- r_cae_on_base_seq_fm8x12_dim6144_real3500_si_dr_se_re
+- r_cae_on_base_seq_fm8x12_dim3072_real3500_re_se_si_dr
+- r_cae_on_base_seq_fm8x12_dim6144_real3500_re_se_si_dr
+
+on_seq/on_seq_pre_study:
+- r_cae_fm2x3_dim192
+- r_cae_fm2x3_dim384
+- r_cae_fm4x6_dim768
+- r_cae_fm4x6_dim1536
+- r_cae_fm8x12_dim3072
+- r_cae_fm8x12_dim6144
+- r_cae_fm16x24_dim12288

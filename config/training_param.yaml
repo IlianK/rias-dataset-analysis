@@ -1,0 +1,310 @@
+###################
+# R-CAE vs. CAE
+cae_on_base_seq_fm8x12_dim3072_real3500:
+  model_name: cae_on_base_seq_fm8x12_dim3072_real3500
+  filters: [32,32,32,32,32]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 30
+  dataset_names: ['adidas_syn_dr', 'adidas_syn_simple', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'cae'
+  dense_units: []
+
+cae_on_base_seq_fm8x12_dim6144_real3500:
+  model_name: cae_on_base_seq_fm8x12_dim6144_real3500
+  filters: [64,64,64,64,64]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 30
+  dataset_names: ['adidas_syn_dr', 'adidas_syn_simple', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'cae'
+  dense_units: []
+
+r_cae_on_base_seq_fm8x12_dim3072_real3500:
+  model_name: r_cae_on_base_seq_fm8x12_dim3072_real3500
+  filters: [32,32,32,32,32]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 30
+  dataset_names: ['adidas_syn_dr', 'adidas_syn_simple', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_seq_fm8x12_dim6144_real3500:
+  model_name: r_cae_on_base_seq_fm8x12_dim6144_real3500
+  filters: [64,64,64,64,64]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 30
+  dataset_names: ['adidas_syn_dr', 'adidas_syn_simple', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+# SEQ ORDER
+r_cae_on_base_seq_fm8x12_dim3072_real3500_si_dr_se_re:
+  model_name: r_cae_on_base_seq_fm8x12_dim3072_real3500_si_dr_se_re
+  filters: [32,32,32,32,32]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 30
+  dataset_names: ['adidas_syn_simple', 'adidas_syn_dr', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_seq_fm8x12_dim6144_real3500_si_dr_se_re:
+  model_name: r_cae_on_base_seq_fm8x12_dim6144_real3500_si_dr_se_re
+  filters: [64,64,64,64,64]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 30
+  dataset_names: ['adidas_syn_simple', 'adidas_syn_dr', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_seq_fm8x12_dim3072_real3500_re_se_si_dr:
+  model_name: r_cae_on_base_seq_fm8x12_dim3072_real3500_re_se_si_dr
+  filters: [32,32,32,32,32]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 30
+  dataset_names: ['adidas_real', 'adidas_syn_se', 'adidas_syn_simple', 'adidas_syn_dr']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_seq_fm8x12_dim6144_real3500_re_se_si_dr:
+  model_name: r_cae_on_base_seq_fm8x12_dim6144_real3500_re_se_si_dr
+  filters: [64,64,64,64,64]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 30
+  dataset_names: ['adidas_real', 'adidas_syn_se', 'adidas_syn_simple', 'adidas_syn_dr']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+# COMBINED
+r_cae_on_base_comb_fm8x12_dim3072_real3500:
+  model_name: r_cae_on_base_comb_fm8x12_dim3072_real3500
+  filters: [32,32,32,32,32]
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm8x12_dim6144_real3500:
+  model_name: r_cae_on_base_comb_fm8x12_dim6144_real3500
+  filters: [64,64,64,64,64]
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+# REAL AMOUNT 3072
+r_cae_on_base_comb_fm8x12_dim3072_real2500:
+  model_name: r_cae_on_base_comb_fm8x12_dim3072_real2500
+  filters: [32,32,32,32,32]
+  real_amount: 0
+  imgs_to_train_on: 13000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real2500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm8x12_dim3072_real1500:
+  model_name: r_cae_on_base_comb_fm8x12_dim3072_real1500
+  filters: [32,32,32,32,32]
+  real_amount: 0
+  imgs_to_train_on: 12000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real1500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm8x12_dim3072_real500:
+  model_name: r_cae_on_base_comb_fm8x12_dim3072_real500
+  filters: [32,32,32,32,32]
+  real_amount: 0
+  imgs_to_train_on: 11000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+# REAL AMOUNT 6144
+r_cae_on_base_comb_fm8x12_dim6144_real2500:
+  model_name: r_cae_on_base_comb_fm8x12_dim6144_real2500
+  filters: [64,64,64,64,64]
+  real_amount: 0
+  imgs_to_train_on: 13000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real2500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm8x12_dim6144_real1500:
+  model_name: r_cae_on_base_comb_fm8x12_dim6144_real1500
+  filters: [64,64,64,64,64]
+  real_amount: 0
+  imgs_to_train_on: 12000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real1500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm8x12_dim6144_real500:
+  model_name: r_cae_on_base_comb_fm8x12_dim6144_real500
+  filters: [64,64,64,64,64]
+  real_amount: 0
+  imgs_to_train_on: 11000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+# COMB LESS DIMENSIONS
+r_cae_on_base_comb_fm4x6_dim1536_real3500:
+  model_name: r_cae_on_base_comb_fm4x6_dim1536_real3500
+  filters: [64,64,64,64,64,64] 
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm4x6_dim768_real3500:
+  model_name: r_cae_on_base_comb_fm4x6_dim768_real3500
+  filters: [32,32,32,32,32,32] 
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm2x3_dim384_real3500:
+  model_name: r_cae_on_base_comb_fm2x3_dim384_real3500
+  filters: [64,64,64,64,64,64,64] 
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm2x3_dim192_real3500:
+  model_name: r_cae_on_base_comb_fm2x3_dim192_real3500
+  filters: [32,32,32,32,32,32,32] 
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+# DOWN VS. UP 
+r_cae_on_base_comb_fm8x12_dim1536_real3500_down:
+  model_name: r_cae_on_base_comb_fm8x12_dim1536_real3500_down
+  filters: [64,64,32,32,16]
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_on_base_comb_fm4x6_dim3072_real3500_up:
+  model_name: r_cae_on_base_comb_fm4x6_dim1536_real3500_up
+  filters: [16,16,32,32,64,64]
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+# CLASSIC
+classic_on_base_comb_dense3072_real3500:
+  model_name: classic_on_base_comb_dense3072_real3500
+  filters: []
+  real_amount: 0
+  imgs_to_train_on: 14000
+  epochs_per_dataset: 30
+  dataset_names: ['all_train_data_real3500']
+  autoencoder_type: 'classic'
+  dense_units: [200]
+
+
+########## R-CAE SEQUENTIAL TRAINING ON DIFFERENT DATASETS ##########
+r_cae_fm2x3_dim192:
+  model_name: r_cae_fm2x3_dim192
+  filters: [32,32,32,32,32,32,32]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 20
+  dataset_names: ['adidas_syn_dr_real_texture', 'adidas_syn_simple', 'adidas_syn_simple_real_texture', 'adidas_syn_se_random_light', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_fm2x3_dim384:
+  model_name: r_cae_fm2x3_dim384
+  filters: [64,64,64,64,64,64,64]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 20
+  dataset_names: ['adidas_syn_dr_real_texture', 'adidas_syn_simple', 'adidas_syn_simple_real_texture', 'adidas_syn_se_random_light', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_fm4x6_dim768:
+  model_name: r_cae_fm4x6_dim768
+  filters: [32,32,32,32,32,32]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 20
+  dataset_names: ['adidas_syn_dr_real_texture', 'adidas_syn_simple', 'adidas_syn_simple_real_texture', 'adidas_syn_se_random_light', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_fm4x6_dim1536:
+  model_name: r_cae_fm4x6_dim1536
+  filters: [64,64,64,64,64,64]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 20
+  dataset_names: ['adidas_syn_dr_real_texture', 'adidas_syn_simple', 'adidas_syn_simple_real_texture', 'adidas_syn_se_random_light', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_fm8x12_dim3072:
+  model_name: r_cae_fm8x12_dim3072
+  filters: [32,32,32,32,32]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 20
+  dataset_names: ['adidas_syn_dr_real_texture', 'adidas_syn_simple', 'adidas_syn_simple_real_texture', 'adidas_syn_se_random_light', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_fm8x12_dim6144:
+  model_name: r_cae_fm8x12_dim6144
+  filters: [64,64,64,64,64]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 20
+  dataset_names: ['adidas_syn_dr_real_texture', 'adidas_syn_simple', 'adidas_syn_simple_real_texture', 'adidas_syn_se_random_light', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []
+
+r_cae_fm16x24_dim12288:
+  model_name: r_cae_fm16x24_dim12288
+  filters: [32,32,32,32]
+  real_amount: 3500
+  imgs_to_train_on: 3500
+  epochs_per_dataset: 20
+  dataset_names: ['adidas_syn_dr_real_texture', 'adidas_syn_simple', 'adidas_syn_simple_real_texture', 'adidas_syn_se_random_light', 'adidas_syn_se', 'adidas_real']
+  autoencoder_type: 'r_cae'
+  dense_units: []

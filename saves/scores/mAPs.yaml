@@ -1,0 +1,30 @@
+adidas_real:
+    mAP: 88.99
+    std_dev: 0.37
+adidas_syn_se_random_light:
+    mAP: 78.33
+    std_dev: 0.74
+adidas_syn_se:
+    mAP: 75.53
+    std_dev: 1.15
+adidas_syn_se_random_camera:
+    mAP: 74.96
+    std_dev: 1.14
+adidas_syn_se_random_texture:
+    mAP: 53.08
+    std_dev: 3.48
+adidas_syn_simple_real_camera:
+    mAP: 36.49
+    std_dev: 2.40
+adidas_syn_simple:
+    mAP: 28.34
+    std_dev: 0.79
+adidas_syn_se_no_lc_table:
+    mAP: 27.13
+    std_dev: 5.79
+adidas_syn_dr_real_texture:
+    mAP: 22.26
+    std_dev: 3.68
+adidas_syn_dr:
+    mAP: 10.73
+    std_dev: 2.24

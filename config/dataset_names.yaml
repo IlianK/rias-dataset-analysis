@@ -1,0 +1,48 @@
+base_datasets:
+  - adidas_real
+  - adidas_syn_se
+  - adidas_syn_simple
+  - adidas_syn_dr
+
+test_datasets:
+  - adidas_syn_se_random_light
+  - adidas_syn_se_random_camera
+  - adidas_syn_se_random_texture
+  - adidas_syn_se_static_light
+  - adidas_syn_se_color_texture
+  - adidas_syn_se_no_lc_table
+  - adidas_syn_simple_random_light
+  - adidas_syn_simple_random_texture
+  - adidas_syn_simple_real_camera
+  - adidas_syn_simple_real_texture
+  - adidas_syn_simple_real_light
+  - adidas_syn_dr_real_texture
+  - adidas_syn_dr_color_texture
+
+to_evaluate:
+  - adidas_real
+  
+to_encode:
+  - adidas_real
+  
+to_decode:
+
+
+object_detection_datasets:
+  - adidas_syn_se_random_light
+  - adidas_syn_se_random_camera
+  - adidas_syn_se_random_texture
+  - adidas_syn_se_no_lc_table
+  - adidas_syn_simple_real_camera
+  - adidas_syn_dr_real_texture
+
+bosch_datasets:
+  - bosch_syn_hsv
+  - bosch_real
+  - bosch_real_midi
+  - bosch_real_mini
+  - bosch_syn_gan
+  - bosch_syn_opt
+  - bosch_syn_preopt
+  - bosch_syn_ict
+  - bosch_syn_opt

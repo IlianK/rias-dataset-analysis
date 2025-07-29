@@ -1,0 +1,1190 @@
+models:
+  r_cae_fm2x3_dim192:
+    adidas_real:
+      ssi: '0.9089839'
+      psnr: '27.729000253735784'
+      mse: '132.62602'
+      mae: '4.4646044'
+    adidas_syn_se:
+      ssi: '0.70423543'
+      psnr: '20.913638729452085'
+      mse: '586.1194'
+      mae: '12.821886'
+    adidas_syn_simple:
+      ssi: '0.6287721'
+      psnr: '18.712325059822817'
+      mse: '878.3308'
+      mae: '18.599567'
+    adidas_syn_dr:
+      ssi: '0.5668312'
+      psnr: '16.549525269010566'
+      mse: '1631.6703'
+      mae: '21.341188'
+    adidas_syn_dr_real_texture:
+      ssi: '0.58988494'
+      psnr: '17.147979132892985'
+      mse: '1404.8315'
+      mae: '19.54108'
+    adidas_syn_se_random_texture:
+      ssi: '0.61308885'
+      psnr: '17.247580954305032'
+      mse: '1344.1061'
+      mae: '18.894278'
+    adidas_syn_simple_real_texture:
+      ssi: '0.61546296'
+      psnr: '18.379623435260008'
+      mse: '957.76794'
+      mae: '19.24694'
+    adidas_syn_simple_random_texture:
+      ssi: '0.57048666'
+      psnr: '18.41690421750467'
+      mse: '955.4733'
+      mae: '19.622091'
+  r_cae_fm2x3_dim384:
+    adidas_real:
+      ssi: '0.92571056'
+      psnr: '29.309832105363213'
+      mse: '93.07186'
+      mae: '3.992628'
+    adidas_syn_se:
+      ssi: '0.7096923'
+      psnr: '21.435651379576054'
+      mse: '527.1294'
+      mae: '11.876678'
+    adidas_syn_simple:
+      ssi: '0.62946594'
+      psnr: '19.12742243435345'
+      mse: '799.3826'
+      mae: '18.136028'
+    adidas_syn_dr:
+      ssi: '0.58602077'
+      psnr: '17.30700612323079'
+      mse: '1427.9774'
+      mae: '18.523344'
+    adidas_syn_dr_real_texture:
+      ssi: '0.611705'
+      psnr: '18.125908950396685'
+      mse: '1143.3739'
+      mae: '16.5646'
+    adidas_syn_se_random_texture:
+      ssi: '0.6161302'
+      psnr: '17.681953375025095'
+      mse: '1215.5575'
+      mae: '17.540375'
+    adidas_syn_simple_real_texture:
+      ssi: '0.6163106'
+      psnr: '18.718105447829966'
+      mse: '894.13336'
+      mae: '18.809206'
+    adidas_syn_simple_random_texture:
+      ssi: '0.586736'
+      psnr: '18.84931567955288'
+      mse: '866.21173'
+      mae: '18.670755'
+  r_cae_fm4x6_dim768:
+    adidas_real:
+      ssi: '0.92850536'
+      psnr: '31.469387936562597'
+      mse: '57.76301'
+      mae: '3.0940597'
+    adidas_syn_se:
+      ssi: '0.75825036'
+      psnr: '23.59954282709421'
+      mse: '317.61707'
+      mae: '8.472271'
+    adidas_syn_simple:
+      ssi: '0.6876761'
+      psnr: '22.822992384492668'
+      mse: '342.27847'
+      mae: '10.390103'
+    adidas_syn_dr:
+      ssi: '0.6528081'
+      psnr: '20.209840292450743'
+      mse: '705.8031'
+      mae: '12.7464'
+    adidas_syn_dr_real_texture:
+      ssi: '0.6708479'
+      psnr: '20.677422242171062'
+      mse: '630.76843'
+      mae: '11.752761'
+    adidas_syn_se_random_texture:
+      ssi: '0.6606061'
+      psnr: '19.707649296159726'
+      mse: '764.90906'
+      mae: '13.512355'
+    adidas_syn_simple_real_texture:
+      ssi: '0.67539185'
+      psnr: '22.417456993067862'
+      mse: '382.48108'
+      mae: '10.847154'
+    adidas_syn_simple_random_texture:
+      ssi: '0.65285736'
+      psnr: '22.702607202067643'
+      mse: '360.1337'
+      mae: '10.596832'
+  r_cae_fm4x6_dim1536:
+    adidas_real:
+      ssi: '0.9452712'
+      psnr: '33.212719796605505'
+      mse: '39.005405'
+      mae: '2.6212597'
+    adidas_syn_se:
+      ssi: '0.7903593'
+      psnr: '24.836103951786683'
+      mse: '246.20787'
+      mae: '7.2203484'
+    adidas_syn_simple:
+      ssi: '0.7567636'
+      psnr: '24.655488138489723'
+      mse: '224.9641'
+      mae: '8.052326'
+    adidas_syn_dr:
+      ssi: '0.68026936'
+      psnr: '22.02290992076264'
+      mse: '486.17114'
+      mae: '10.549814'
+    adidas_syn_dr_real_texture:
+      ssi: '0.7029176'
+      psnr: '22.858228568943012'
+      mse: '388.2742'
+      mae: '9.521804'
+    adidas_syn_se_random_texture:
+      ssi: '0.6803194'
+      psnr: '20.162902297450483'
+      mse: '698.68616'
+      mae: '12.233967'
+    adidas_syn_simple_real_texture:
+      ssi: '0.74221927'
+      psnr: '24.01916499265862'
+      mse: '270.94498'
+      mae: '8.494988'
+    adidas_syn_simple_random_texture:
+      ssi: '0.71330726'
+      psnr: '23.601469589359596'
+      mse: '294.12473'
+      mae: '8.688016'
+  r_cae_fm8x12_dim3072:
+    adidas_real:
+      ssi: '0.9560782'
+      psnr: '35.789934234895675'
+      mse: '20.59271'
+      mae: '2.012156'
+    adidas_syn_se:
+      ssi: '0.8710864'
+      psnr: '28.285037212613346'
+      mse: '115.37242'
+      mae: '4.619522'
+    adidas_syn_simple:
+      ssi: '0.8817104'
+      psnr: '27.2490769829723'
+      mse: '124.864426'
+      mae: '4.7014713'
+    adidas_syn_dr:
+      ssi: '0.7462865'
+      psnr: '24.978506625712942'
+      mse: '237.69911'
+      mae: '7.3517723'
+    adidas_syn_dr_real_texture:
+      ssi: '0.76686513'
+      psnr: '25.36660793058771'
+      mse: '220.5563'
+      mae: '6.834573'
+    adidas_syn_se_random_texture:
+      ssi: '0.7661922'
+      psnr: '22.93491213854733'
+      mse: '376.10577'
+      mae: '8.680351'
+    adidas_syn_simple_real_texture:
+      ssi: '0.87224007'
+      psnr: '26.79022255679063'
+      mse: '141.85396'
+      mae: '4.9260755'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8465489'
+      psnr: '27.127871889882734'
+      mse: '131.0186'
+      mae: '4.998032'
+  r_cae_fm8x12_dim6144:
+    adidas_real:
+      ssi: '0.9668463'
+      psnr: '37.62087409153264'
+      mse: '13.288144'
+      mae: '1.6848062'
+    adidas_syn_se:
+      ssi: '0.89830536'
+      psnr: '29.490330570500756'
+      mse: '86.34497'
+      mae: '4.0510774'
+    adidas_syn_simple:
+      ssi: '0.89201903'
+      psnr: '27.426917715178043'
+      mse: '119.92156'
+      mae: '4.1816726'
+    adidas_syn_dr:
+      ssi: '0.8036136'
+      psnr: '25.862726208895232'
+      mse: '204.38948'
+      mae: '6.4652085'
+    adidas_syn_dr_real_texture:
+      ssi: '0.81827146'
+      psnr: '26.375723456456942'
+      mse: '187.3335'
+      mae: '6.0181556'
+    adidas_syn_se_random_texture:
+      ssi: '0.8091595'
+      psnr: '23.832234651858816'
+      mse: '321.7463'
+      mae: '7.50121'
+    adidas_syn_simple_real_texture:
+      ssi: '0.8831282'
+      psnr: '27.16267114610496'
+      mse: '129.16673'
+      mae: '4.3127093'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8716176'
+      psnr: '27.881195833263362'
+      mse: '111.157394'
+      mae: '4.3333635'
+  r_cae_fm16x24_dim12288:
+    adidas_real:
+      ssi: '0.97325784'
+      psnr: '37.14341616730168'
+      mse: '14.25693'
+      mae: '1.8130884'
+    adidas_syn_se:
+      ssi: '0.9314411'
+      psnr: '31.675200666869276'
+      mse: '49.283268'
+      mae: '3.2384672'
+    adidas_syn_simple:
+      ssi: '0.8863211'
+      psnr: '21.5118143960583'
+      mse: '486.58438'
+      mae: '5.784371'
+    adidas_syn_dr:
+      ssi: '0.80903167'
+      psnr: '26.762893219701084'
+      mse: '181.1851'
+      mae: '5.555936'
+    adidas_syn_dr_real_texture:
+      ssi: '0.8162719'
+      psnr: '26.44125204792417'
+      mse: '215.30855'
+      mae: '5.3585386'
+    adidas_syn_se_random_texture:
+      ssi: '0.87189984'
+      psnr: '26.113920392112547'
+      mse: '191.22768'
+      mae: '5.8027077'
+    adidas_syn_simple_real_texture:
+      ssi: '0.88339317'
+      psnr: '21.494600513507553'
+      mse: '486.94662'
+      mae: '5.7878075'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8853007'
+      psnr: '23.10652281249382'
+      mse: '350.33444'
+      mae: '5.169573'
+  r_cae_on_base_seq_fm8x12_dim3072_real3500:
+    adidas_real:
+      ssi: '0.94940245'
+      psnr: '34.9745590345704'
+      mse: '25.734818'
+      mae: '2.2922518'
+    adidas_syn_se:
+      ssi: '0.8453585'
+      psnr: '27.191893530410788'
+      mse: '147.108'
+      mae: '5.5569997'
+    adidas_syn_simple:
+      ssi: '0.7705345'
+      psnr: '24.410570364676413'
+      mse: '245.17334'
+      mae: '6.706495'
+    adidas_syn_dr:
+      ssi: '0.7381597'
+      psnr: '23.733235612611715'
+      mse: '325.17578'
+      mae: '8.550825'
+    adidas_syn_dr_real_texture:
+      ssi: '0.75718635'
+      psnr: '24.28717684493068'
+      mse: '292.23798'
+      mae: '7.9551516'
+    adidas_syn_se_random_texture:
+      ssi: '0.740348'
+      psnr: '22.000578725634988'
+      mse: '466.5303'
+      mae: '9.967412'
+    adidas_syn_simple_real_texture:
+      ssi: '0.7604546'
+      psnr: '24.111084401571123'
+      mse: '262.9742'
+      mae: '6.9726825'
+    adidas_syn_simple_random_texture:
+      ssi: '0.7433593'
+      psnr: '25.983095988612174'
+      mse: '172.23582'
+      mae: '6.426697'
+  r_cae_on_base_seq_fm8x12_dim6144_real3500:
+    adidas_real:
+      ssi: '0.9667448'
+      psnr: '37.54671913303136'
+      mse: '14.044108'
+      mae: '1.6872874'
+    adidas_syn_se:
+      ssi: '0.8909011'
+      psnr: '28.96569813605552'
+      mse: '98.267006'
+      mae: '4.3644295'
+    adidas_syn_simple:
+      ssi: '0.86809945'
+      psnr: '29.025950053396585'
+      mse: '84.36452'
+      mae: '4.434539'
+    adidas_syn_dr:
+      ssi: '0.7946409'
+      psnr: '25.495221296485923'
+      mse: '214.52417'
+      mae: '6.828772'
+    adidas_syn_dr_real_texture:
+      ssi: '0.81150305'
+      psnr: '25.733850060343684'
+      mse: '206.30797'
+      mae: '6.4568563'
+    adidas_syn_se_random_texture:
+      ssi: '0.79439944'
+      psnr: '23.478813460214585'
+      mse: '335.71823'
+      mae: '8.135207'
+    adidas_syn_simple_real_texture:
+      ssi: '0.85880655'
+      psnr: '28.49080780302258'
+      mse: '97.06431'
+      mae: '4.615208'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8273615'
+      psnr: '28.266413006511502'
+      mse: '102.92306'
+      mae: '4.8969383'
+  cae_on_base_seq_fm8x12_dim3072_real3500:
+    adidas_real:
+      ssi: '0.9048547'
+      psnr: '27.33468753504982'
+      mse: '138.21889'
+      mae: '6.0673823'
+    adidas_syn_se:
+      ssi: '0.7342691'
+      psnr: '22.055170559062027'
+      mse: '463.12155'
+      mae: '11.115068'
+    adidas_syn_simple:
+      ssi: '0.6651059'
+      psnr: '21.43432418941653'
+      mse: '473.41156'
+      mae: '12.521972'
+    adidas_syn_dr:
+      ssi: '0.6389363'
+      psnr: '18.80202939476273'
+      mse: '970.16376'
+      mae: '16.223505'
+    adidas_syn_dr_real_texture:
+      ssi: '0.6517425'
+      psnr: '19.378060590032064'
+      mse: '853.22565'
+      mae: '15.476726'
+    adidas_syn_se_random_texture:
+      ssi: '0.6478001'
+      psnr: '18.454238394413093'
+      mse: '1028.0017'
+      mae: '16.269146'
+    adidas_syn_simple_real_texture:
+      ssi: '0.6528132'
+      psnr: '20.93478360249054'
+      mse: '543.8483'
+      mae: '13.051104'
+    adidas_syn_simple_random_texture:
+      ssi: '0.6246564'
+      psnr: '21.280696932584412'
+      mse: '503.72562'
+      mae: '12.638874'
+  cae_on_base_seq_fm8x12_dim6144_real3500:
+    adidas_real:
+      ssi: '0.9255528'
+      psnr: '30.50168404142149'
+      mse: '76.90498'
+      mae: '3.8022494'
+    adidas_syn_se:
+      ssi: '0.7549361'
+      psnr: '22.55129189088902'
+      mse: '436.96057'
+      mae: '9.973169'
+    adidas_syn_simple:
+      ssi: '0.6748778'
+      psnr: '21.95860132540289'
+      mse: '422.45892'
+      mae: '12.437962'
+    adidas_syn_dr:
+      ssi: '0.6666645'
+      psnr: '19.34026008472449'
+      mse: '1018.5029'
+      mae: '15.124127'
+    adidas_syn_dr_real_texture:
+      ssi: '0.68933755'
+      psnr: '20.267198518142255'
+      mse: '761.11285'
+      mae: '12.9939165'
+    adidas_syn_se_random_texture:
+      ssi: '0.6532306'
+      psnr: '17.976565916598858'
+      mse: '1183.318'
+      mae: '16.82613'
+    adidas_syn_simple_real_texture:
+      ssi: '0.6602521'
+      psnr: '21.399192737954642'
+      mse: '487.88126'
+      mae: '12.998113'
+    adidas_syn_simple_random_texture:
+      ssi: '0.62897253'
+      psnr: '21.796095108901145'
+      mse: '449.12668'
+      mae: '12.766191'
+  r_cae_on_base_comb_fm4x6_dim1536_real3500:
+    adidas_real:
+      ssi: '0.93131226'
+      psnr: '31.630819159173008'
+      mse: '53.786373'
+      mae: '3.303176'
+    adidas_syn_se:
+      ssi: '0.9157955'
+      psnr: '29.771921992224293'
+      mse: '81.21422'
+      mae: '3.861281'
+    adidas_syn_simple:
+      ssi: '0.97185385'
+      psnr: '34.63921545412158'
+      mse: '26.19094'
+      mae: '1.5688678'
+    adidas_syn_dr:
+      ssi: '0.7593527'
+      psnr: '25.61254566934831'
+      mse: '213.33102'
+      mae: '7.428561'
+    adidas_syn_dr_real_texture:
+      ssi: '0.777075'
+      psnr: '26.19619425155608'
+      mse: '184.95264'
+      mae: '6.832338'
+    adidas_syn_se_random_texture:
+      ssi: '0.77983785'
+      psnr: '22.206941230021645'
+      mse: '438.97238'
+      mae: '9.325374'
+    adidas_syn_simple_real_texture:
+      ssi: '0.9577428'
+      psnr: '31.88963776345885'
+      mse: '55.090065'
+      mae: '2.1698647'
+    adidas_syn_simple_random_texture:
+      ssi: '0.86655295'
+      psnr: '25.986211888002217'
+      mse: '169.4414'
+      mae: '4.8841443'
+  r_cae_on_base_comb_fm4x6_dim768_real3500:
+    adidas_real:
+      ssi: '0.90927804'
+      psnr: '29.643740948999355'
+      mse: '83.878265'
+      mae: '4.4154162'
+    adidas_syn_se:
+      ssi: '0.8613796'
+      psnr: '27.08651146699457'
+      mse: '144.7996'
+      mae: '5.4467664'
+    adidas_syn_simple:
+      ssi: '0.94932026'
+      psnr: '32.001240991624094'
+      mse: '46.56469'
+      mae: '2.2016757'
+    adidas_syn_dr:
+      ssi: '0.7355583'
+      psnr: '24.335114805507388'
+      mse: '278.65213'
+      mae: '8.622033'
+    adidas_syn_dr_real_texture:
+      ssi: '0.7522934'
+      psnr: '24.898376240051622'
+      mse: '242.39609'
+      mae: '8.055456'
+    adidas_syn_se_random_texture:
+      ssi: '0.73167586'
+      psnr: '21.15613644681267'
+      mse: '552.2922'
+      mae: '10.909373'
+    adidas_syn_simple_real_texture:
+      ssi: '0.93458414'
+      psnr: '29.84660312111498'
+      mse: '86.081795'
+      mae: '2.8359244'
+    adidas_syn_simple_random_texture:
+      ssi: '0.83935606'
+      psnr: '24.193441045806576'
+      mse: '254.70714'
+      mae: '6.119213'
+  r_cae_on_base_comb_fm2x3_dim384_real3500:
+    adidas_real:
+      ssi: '0.9100004'
+      psnr: '27.09098733127228'
+      mse: '150.41774'
+      mae: '4.904681'
+    adidas_syn_se:
+      ssi: '0.83397555'
+      psnr: '24.529924506619093'
+      mse: '262.55942'
+      mae: '6.85163'
+    adidas_syn_simple:
+      ssi: '0.9465148'
+      psnr: '28.4884712011283'
+      mse: '105.031586'
+      mae: '2.4974778'
+    adidas_syn_dr:
+      ssi: '0.6920036'
+      psnr: '20.91873522837973'
+      mse: '594.8145'
+      mae: '12.303837'
+    adidas_syn_dr_real_texture:
+      ssi: '0.70914257'
+      psnr: '21.414551419360134'
+      mse: '522.61926'
+      mae: '11.640071'
+    adidas_syn_se_random_texture:
+      ssi: '0.69550717'
+      psnr: '18.704478484196528'
+      mse: '968.328'
+      mae: '14.889229'
+    adidas_syn_simple_real_texture:
+      ssi: '0.9298923'
+      psnr: '26.629430141867044'
+      mse: '182.68294'
+      mae: '3.4435308'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8327713'
+      psnr: '21.449773969536132'
+      mse: '489.33725'
+      mae: '8.198175'
+  r_cae_on_base_comb_fm2x3_dim192_real3500:
+    adidas_real:
+      ssi: '0.88945466'
+      psnr: '26.45141490754068'
+      mse: '172.50977'
+      mae: '5.590349'
+    adidas_syn_se:
+      ssi: '0.81590915'
+      psnr: '23.88329497811863'
+      mse: '306.35522'
+      mae: '8.173924'
+    adidas_syn_simple:
+      ssi: '0.9291677'
+      psnr: '27.587847733862347'
+      mse: '126.865234'
+      mae: '3.7353988'
+    adidas_syn_dr:
+      ssi: '0.6785375'
+      psnr: '20.74728889869713'
+      mse: '616.8681'
+      mae: '12.889338'
+    adidas_syn_dr_real_texture:
+      ssi: '0.6958231'
+      psnr: '21.190856858838046'
+      mse: '548.5162'
+      mae: '12.168942'
+    adidas_syn_se_random_texture:
+      ssi: '0.68547314'
+      psnr: '18.62016391471252'
+      mse: '984.94147'
+      mae: '15.595742'
+    adidas_syn_simple_real_texture:
+      ssi: '0.91190857'
+      psnr: '26.066876999332372'
+      mse: '202.21071'
+      mae: '4.604799'
+    adidas_syn_simple_random_texture:
+      ssi: '0.80169517'
+      psnr: '21.9903506205752'
+      mse: '429.76297'
+      mae: '8.653981'
+  r_cae_on_base_comb_fm8x12_dim3072_real2500:
+    adidas_real:
+      ssi: '0.93498087'
+      psnr: '33.042293861338884'
+      mse: '37.636467'
+      mae: '3.1740592'
+    adidas_syn_se:
+      ssi: '0.9317122'
+      psnr: '31.91399508530209'
+      mse: '47.78709'
+      mae: '3.2129655'
+    adidas_syn_simple:
+      ssi: '0.9326651'
+      psnr: '35.97390997461075'
+      mse: '17.66457'
+      mae: '2.279572'
+    adidas_syn_dr:
+      ssi: '0.8052451'
+      psnr: '27.696069033809405'
+      mse: '131.47554'
+      mae: '6.223952'
+    adidas_syn_dr_real_texture:
+      ssi: '0.823078'
+      psnr: '28.434984067590836'
+      mse: '109.31016'
+      mae: '5.646541'
+    adidas_syn_se_random_texture:
+      ssi: '0.8289516'
+      psnr: '24.54504671680427'
+      mse: '256.9651'
+      mae: '7.0705094'
+    adidas_syn_simple_real_texture:
+      ssi: '0.92345375'
+      psnr: '33.95608452437617'
+      mse: '31.17233'
+      mae: '2.5912902'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8510307'
+      psnr: '29.30293146275776'
+      mse: '80.45395'
+      mae: '4.4548883'
+  r_cae_on_base_comb_fm8x12_dim3072_real1500:
+    adidas_real:
+      ssi: '0.9254169'
+      psnr: '31.320920689051867'
+      mse: '54.35067'
+      mae: '4.036346'
+    adidas_syn_se:
+      ssi: '0.9273395'
+      psnr: '30.551748725826656'
+      mse: '66.52555'
+      mae: '4.1043773'
+    adidas_syn_simple:
+      ssi: '0.95675975'
+      psnr: '34.73938180330631'
+      mse: '24.007679'
+      mae: '2.119165'
+    adidas_syn_dr:
+      ssi: '0.80166155'
+      psnr: '26.870757911406958'
+      mse: '158.14914'
+      mae: '6.8128963'
+    adidas_syn_dr_real_texture:
+      ssi: '0.81775546'
+      psnr: '27.63295680722429'
+      mse: '131.30896'
+      mae: '6.2477984'
+    adidas_syn_se_random_texture:
+      ssi: '0.82384634'
+      psnr: '24.093158705204583'
+      mse: '281.9362'
+      mae: '7.753081'
+    adidas_syn_simple_real_texture:
+      ssi: '0.9464935'
+      psnr: '32.9820371658699'
+      mse: '40.22263'
+      mae: '2.3762748'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8830427'
+      psnr: '28.9137948279277'
+      mse: '88.09705'
+      mae: '4.0923533'
+  r_cae_on_base_comb_fm8x12_dim3072_real500:
+    adidas_real:
+      ssi: '0.91215414'
+      psnr: '30.311192150740595'
+      mse: '67.6632'
+      mae: '3.978044'
+    adidas_syn_se:
+      ssi: '0.92850614'
+      psnr: '30.527766984694704'
+      mse: '66.38615'
+      mae: '3.8238018'
+    adidas_syn_simple:
+      ssi: '0.9632102'
+      psnr: '34.4121953009351'
+      mse: '25.663437'
+      mae: '2.521489'
+    adidas_syn_dr:
+      ssi: '0.8092399'
+      psnr: '27.04678838303705'
+      mse: '154.71152'
+      mae: '6.439689'
+    adidas_syn_dr_real_texture:
+      ssi: '0.8273301'
+      psnr: '27.919909052797774'
+      mse: '125.129715'
+      mae: '5.7722764'
+    adidas_syn_se_random_texture:
+      ssi: '0.825492'
+      psnr: '24.006865139740977'
+      mse: '288.5535'
+      mae: '7.693746'
+    adidas_syn_simple_real_texture:
+      ssi: '0.95272183'
+      psnr: '32.68287018806272'
+      mse: '41.8781'
+      mae: '2.8100538'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8853669'
+      psnr: '28.686241210601736'
+      mse: '92.80961'
+      mae: '4.6540437'
+  r_cae_on_base_comb_fm8x12_dim6144_real2500:
+    adidas_real:
+      ssi: '0.9508785'
+      psnr: '34.71512567687912'
+      mse: '25.036207'
+      mae: '2.688107'
+    adidas_syn_se:
+      ssi: '0.9519737'
+      psnr: '33.510141241161335'
+      mse: '33.28593'
+      mae: '2.6584105'
+    adidas_syn_simple:
+      ssi: '0.9660551'
+      psnr: '38.68226955755106'
+      mse: '10.001829'
+      mae: '1.2079728'
+    adidas_syn_dr:
+      ssi: '0.8376972'
+      psnr: '29.272793916242446'
+      mse: '91.372955'
+      mae: '4.9648957'
+    adidas_syn_dr_real_texture:
+      ssi: '0.85294485'
+      psnr: '29.89302591268133'
+      mse: '79.19791'
+      mae: '4.623129'
+    adidas_syn_se_random_texture:
+      ssi: '0.8643153'
+      psnr: '26.13870325576573'
+      mse: '179.66461'
+      mae: '5.6812634'
+    adidas_syn_simple_real_texture:
+      ssi: '0.9581332'
+      psnr: '36.11878489425352'
+      mse: '19.971588'
+      mae: '1.4726968'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8911026'
+      psnr: '31.056980238875003'
+      mse: '53.8875'
+      mae: '3.2452881'
+  r_cae_on_base_comb_fm8x12_dim6144_real1500:
+    adidas_real:
+      ssi: '0.8963636'
+      psnr: '29.467133662279398'
+      mse: '82.87391'
+      mae: '5.007824'
+    adidas_syn_se:
+      ssi: '0.874794'
+      psnr: '28.087933895445865'
+      mse: '113.75814'
+      mae: '5.7176027'
+    adidas_syn_simple:
+      ssi: '0.9012575'
+      psnr: '30.97151206916883'
+      mse: '56.452045'
+      mae: '4.07558'
+    adidas_syn_dr:
+      ssi: '0.7691524'
+      psnr: '25.7649537547154'
+      mse: '203.1656'
+      mae: '7.7881746'
+    adidas_syn_dr_real_texture:
+      ssi: '0.7881995'
+      psnr: '26.50613791006797'
+      mse: '169.55988'
+      mae: '7.0459847'
+    adidas_syn_se_random_texture:
+      ssi: '0.7765821'
+      psnr: '22.89949630193896'
+      mse: '366.5487'
+      mae: '9.545306'
+    adidas_syn_simple_real_texture:
+      ssi: '0.8907432'
+      psnr: '29.676027134568177'
+      mse: '77.876434'
+      mae: '4.3697968'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8226927'
+      psnr: '27.082476344162266'
+      mse: '132.76057'
+      mae: '5.992717'
+  r_cae_on_base_comb_fm8x12_dim6144_real500:
+    adidas_real:
+      ssi: '0.94342184'
+      psnr: '32.222898976332644'
+      mse: '42.76229'
+      mae: '3.6436272'
+    adidas_syn_se:
+      ssi: '0.9417275'
+      psnr: '31.196733472270747'
+      mse: '53.811653'
+      mae: '3.8098807'
+    adidas_syn_simple:
+      ssi: '0.9516256'
+      psnr: '34.280474586362246'
+      mse: '26.821371'
+      mae: '2.4193583'
+    adidas_syn_dr:
+      ssi: '0.8181275'
+      psnr: '27.337815028304302'
+      mse: '138.44116'
+      mae: '6.5851727'
+    adidas_syn_dr_real_texture:
+      ssi: '0.83176327'
+      psnr: '27.852163102289577'
+      mse: '121.69255'
+      mae: '6.2884727'
+    adidas_syn_se_random_texture:
+      ssi: '0.851649'
+      psnr: '24.88960965465949'
+      mse: '234.12463'
+      mae: '7.0492187'
+    adidas_syn_simple_real_texture:
+      ssi: '0.94307697'
+      psnr: '32.89314401300455'
+      mse: '38.205677'
+      mae: '2.5952802'
+    adidas_syn_simple_random_texture:
+      ssi: '0.87277865'
+      psnr: '29.03000185038022'
+      mse: '85.095024'
+      mae: '4.177693'
+  r_cae_on_base_seq_fm8x12_dim3072_real3500_si_dr_se_re:
+    adidas_real:
+      ssi: '0.9599542'
+      psnr: '36.50322264268658'
+      mse: '17.717592'
+      mae: '1.8789217'
+    adidas_syn_se:
+      ssi: '0.8725112'
+      psnr: '28.436426804230667'
+      mse: '114.27768'
+      mae: '4.7534833'
+    adidas_syn_simple:
+      ssi: '0.794828'
+      psnr: '24.594787722023643'
+      mse: '229.25697'
+      mae: '6.57918'
+    adidas_syn_dr:
+      ssi: '0.77388793'
+      psnr: '24.597324600047987'
+      mse: '268.44608'
+      mae: '7.325869'
+    adidas_syn_dr_real_texture:
+      ssi: '0.78972286'
+      psnr: '24.8187986073339'
+      mse: '260.94345'
+      mae: '6.975166'
+    adidas_syn_se_random_texture:
+      ssi: '0.7725505'
+      psnr: '22.783725842782406'
+      mse: '394.99625'
+      mae: '8.767687'
+    adidas_syn_simple_real_texture:
+      ssi: '0.78135926'
+      psnr: '24.19351495110143'
+      mse: '254.76851'
+      mae: '6.961663'
+    adidas_syn_simple_random_texture:
+      ssi: '0.778075'
+      psnr: '25.234907660235574'
+      mse: '202.73058'
+      mae: '6.6186676'
+  r_cae_on_base_seq_fm8x12_dim6144_real3500_si_dr_se_re:
+    adidas_real:
+      ssi: '0.95132565'
+      psnr: '33.48325535225918'
+      mse: '32.170948'
+      mae: '2.893122'
+    adidas_syn_se:
+      ssi: '0.88612694'
+      psnr: '28.32175339837089'
+      mse: '108.23305'
+      mae: '5.071619'
+    adidas_syn_simple:
+      ssi: '0.84605616'
+      psnr: '26.37379704198843'
+      mse: '153.9302'
+      mae: '5.985389'
+    adidas_syn_dr:
+      ssi: '0.7823242'
+      psnr: '24.980869480268392'
+      mse: '239.5587'
+      mae: '7.602198'
+    adidas_syn_dr_real_texture:
+      ssi: '0.7954876'
+      psnr: '25.176526266370505'
+      mse: '240.0942'
+      mae: '7.3985686'
+    adidas_syn_se_random_texture:
+      ssi: '0.7925353'
+      psnr: '23.442575009139084'
+      mse: '333.27734'
+      mae: '8.542137'
+    adidas_syn_simple_real_texture:
+      ssi: '0.83737826'
+      psnr: '26.035475645191354'
+      mse: '167.63171'
+      mae: '6.117371'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8251647'
+      psnr: '26.856361068768194'
+      mse: '140.50471'
+      mae: '5.7624016'
+  r_cae_on_base_seq_fm8x12_dim3072_real3500_re_se_si_dr:
+    adidas_real:
+      ssi: '0.8611986'
+      psnr: '25.909748354698884'
+      mse: '170.81744'
+      mae: '5.77465'
+    adidas_syn_se:
+      ssi: '0.85430133'
+      psnr: '27.654274383594498'
+      mse: '130.03885'
+      mae: '5.4235635'
+    adidas_syn_simple:
+      ssi: '0.9170564'
+      psnr: '30.12329836659308'
+      mse: '64.46727'
+      mae: '3.967436'
+    adidas_syn_dr:
+      ssi: '0.8163161'
+      psnr: '27.521028669320657'
+      mse: '140.53888'
+      mae: '6.197946'
+    adidas_syn_dr_real_texture:
+      ssi: '0.8345762'
+      psnr: '28.36008358358363'
+      mse: '114.433395'
+      mae: '5.4726963'
+    adidas_syn_se_random_texture:
+      ssi: '0.783358'
+      psnr: '23.732614658798184'
+      mse: '303.1582'
+      mae: '8.438296'
+    adidas_syn_simple_real_texture:
+      ssi: '0.90629417'
+      psnr: '29.07487489690091'
+      mse: '90.413025'
+      mae: '4.3728223'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8872154'
+      psnr: '28.833446521367453'
+      mse: '89.45693'
+      mae: '4.696381'
+  r_cae_on_base_seq_fm8x12_dim6144_real3500_re_se_si_dr:
+    adidas_real:
+      ssi: '0.8928652'
+      psnr: '26.653417129823755'
+      mse: '143.93275'
+      mae: '5.1287103'
+    adidas_syn_se:
+      ssi: '0.89957094'
+      psnr: '29.346660356555738'
+      mse: '89.92621'
+      mae: '4.2549477'
+    adidas_syn_simple:
+      ssi: '0.91750956'
+      psnr: '31.58602316919532'
+      mse: '45.807045'
+      mae: '2.9277039'
+    adidas_syn_dr:
+      ssi: '0.85544187'
+      psnr: '28.971734430870516'
+      mse: '102.42098'
+      mae: '5.215192'
+    adidas_syn_dr_real_texture:
+      ssi: '0.87147564'
+      psnr: '29.907421582088457'
+      mse: '81.089005'
+      mae: '4.5624228'
+    adidas_syn_se_random_texture:
+      ssi: '0.83988696'
+      psnr: '25.215386213229657'
+      mse: '216.70033'
+      mae: '6.8963556'
+    adidas_syn_simple_real_texture:
+      ssi: '0.90817535'
+      psnr: '30.504564124973538'
+      mse: '65.8451'
+      mae: '3.292819'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8915785'
+      psnr: '31.108157086004347'
+      mse: '54.25459'
+      mae: '3.4022543'
+  r_cae_on_base_comb_fm8x12_dim3072_real3500:
+    adidas_real:
+      ssi: '0.9370411'
+      psnr: '32.97238859650979'
+      mse: '37.601776'
+      mae: '3.090358'
+    adidas_syn_se:
+      ssi: '0.9330847'
+      psnr: '31.625473852297315'
+      mse: '50.63958'
+      mae: '3.3224375'
+    adidas_syn_simple:
+      ssi: '0.9380888'
+      psnr: '35.565126209262175'
+      mse: '19.9619'
+      mae: '1.8625822'
+    adidas_syn_dr:
+      ssi: '0.80438733'
+      psnr: '27.326050843308966'
+      mse: '140.82375'
+      mae: '6.50876'
+    adidas_syn_dr_real_texture:
+      ssi: '0.8203223'
+      psnr: '27.952704327841577'
+      mse: '120.552055'
+      mae: '6.0889177'
+    adidas_syn_se_random_texture:
+      ssi: '0.83089906'
+      psnr: '24.60534164096315'
+      mse: '253.1815'
+      mae: '7.063952'
+    adidas_syn_simple_real_texture:
+      ssi: '0.9286896'
+      psnr: '33.48977993405282'
+      mse: '34.84524'
+      mae: '2.1704993'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8611731'
+      psnr: '29.336275231683363'
+      mse: '80.06745'
+      mae: '3.7753165'
+  r_cae_on_base_comb_fm8x12_dim6144_real3500:
+    adidas_real:
+      ssi: '0.9476764'
+      psnr: '33.777355816488196'
+      mse: '29.75526'
+      mae: '3.1116717'
+    adidas_syn_se:
+      ssi: '0.944647'
+      psnr: '32.520642034001646'
+      mse: '39.969093'
+      mae: '3.2042158'
+    adidas_syn_simple:
+      ssi: '0.95230305'
+      psnr: '36.157887302186076'
+      mse: '17.063871'
+      mae: '2.018822'
+    adidas_syn_dr:
+      ssi: '0.8373515'
+      psnr: '28.663054570020357'
+      mse: '99.65012'
+      mae: '5.555521'
+    adidas_syn_dr_real_texture:
+      ssi: '0.85145044'
+      psnr: '29.07037052249052'
+      mse: '90.97811'
+      mae: '5.3280897'
+    adidas_syn_se_random_texture:
+      ssi: '0.8587114'
+      psnr: '26.03108703276198'
+      mse: '181.12016'
+      mae: '6.1353765'
+    adidas_syn_simple_real_texture:
+      ssi: '0.9447582'
+      psnr: '34.34175546552143'
+      mse: '27.589327'
+      mae: '2.2699885'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8786546'
+      psnr: '30.81530905147698'
+      mse: '56.474445'
+      mae: '3.544064'
+  r_cae_on_base_comb_fm4x6_dim1536_real3500_up:
+    adidas_real:
+      ssi: '0.91111726'
+      psnr: '30.205900508069426'
+      mse: '74.33754'
+      mae: '4.0919795'
+    adidas_syn_se:
+      ssi: '0.8868105'
+      psnr: '28.24192765163374'
+      mse: '115.13963'
+      mae: '4.8560443'
+    adidas_syn_simple:
+      ssi: '0.9372128'
+      psnr: '32.36295722487297'
+      mse: '42.823635'
+      mae: '2.8437686'
+    adidas_syn_dr:
+      ssi: '0.74368775'
+      psnr: '24.98535046997938'
+      mse: '245.28781'
+      mae: '8.235646'
+    adidas_syn_dr_real_texture:
+      ssi: '0.76209795'
+      psnr: '25.5576133129422'
+      mse: '215.07344'
+      mae: '7.6268716'
+    adidas_syn_se_random_texture:
+      ssi: '0.7588781'
+      psnr: '21.527867189803846'
+      mse: '513.0958'
+      mae: '10.350568'
+    adidas_syn_simple_real_texture:
+      ssi: '0.9232575'
+      psnr: '30.305098001515585'
+      mse: '78.069626'
+      mae: '3.3436575'
+    adidas_syn_simple_random_texture:
+      ssi: '0.8323871'
+      psnr: '25.067460841046074'
+      mse: '209.73497'
+      mae: '6.2324724'
+  r_cae_on_base_comb_fm8x12_dim1536_real3500_down:
+    adidas_real:
+      ssi: '0.93402284'
+      psnr: '32.81163180930585'
+      mse: '41.003586'
+      mae: '3.2174106'
+    adidas_syn_se:
+      ssi: '0.9298395'
+      psnr: '31.333953455489894'
+      mse: '56.69946'
+      mae: '3.3570592'
+    adidas_syn_simple:
+      ssi: '0.96783674'
+      psnr: '36.34902714587816'
+      mse: '17.571783'
+      mae: '1.3840789'
+    adidas_syn_dr:
+      ssi: '0.78208905'
+      psnr: '26.732308713560656'
+      mse: '165.01599'
+      mae: '6.831475'
+    adidas_syn_dr_real_texture:
+      ssi: '0.7988571'
+      psnr: '27.398841194020182'
+      mse: '140.43765'
+      mae: '6.304181'
+    adidas_syn_se_random_texture:
+      ssi: '0.8070091'
+      psnr: '23.478539620097134'
+      mse: '331.1301'
+      mae: '8.121727'
+    adidas_syn_simple_real_texture:
+      ssi: '0.9560406'
+      psnr: '33.62677140437638'
+      mse: '38.257282'
+      mae: '1.8124934'
+    adidas_syn_simple_random_texture:
+      ssi: '0.87121725'
+      psnr: '28.124805787905157'
+      mse: '105.88979'
+      mae: '4.0341096'

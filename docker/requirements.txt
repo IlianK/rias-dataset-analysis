@@ -1,0 +1,16 @@
+numpy
+keras
+scikit-learn
+matplotlib
+opencv-python
+tensorflow
+jupyter
+tqdm
+pillow
+scikit-image
+ruamel.yaml
+shap
+plotly
+umap-learn
+seaborn
+visualkeras

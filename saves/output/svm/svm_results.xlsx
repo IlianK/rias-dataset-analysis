@@ -1,0 +1,14 @@
+,Dataset Name,Label 0 Count,Label 1 Count,Label 2 Count,Label 3 Count
+0,adidas_syn_se_random_texture,825,0,13175,0
+1,adidas_syn_dr_real_texture,13998,0,2,0
+2,adidas_syn_simple_random_texture,2,13998,0,0
+3,adidas_syn_simple_real_texture,0,14000,0,0
+4,adidas_syn_dr_color_texture,13999,0,1,0
+5,adidas_syn_se_random_light,152,0,13848,0
+6,adidas_syn_se_static_light,0,0,14000,0
+7,adidas_syn_simple_random_light,1022,12062,916,0
+8,adidas_syn_simple_real_light,0,14000,0,0
+9,adidas_syn_se_color_texture,0,1,13999,0
+10,adidas_syn_se_random_camera,8534,1,5441,24
+11,adidas_syn_simple_real_camera,0,14000,0,0
+12,adidas_syn_se_no_lc_table,1072,0,12928,0
